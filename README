@@ -1,0 +1,9 @@
+How to use:
+ (require 'anything-switch-project)
+ (global-set-key (kbd "C-c f") 'anything-switch-project)
+
+Configuration:
+ add your projects' paths like this
+ (setq asp:my-projects
+       '("~/sshfs/external-server/project/"
+         "~/project/root/controlled/by/svn/"))
